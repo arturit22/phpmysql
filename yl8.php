@@ -1,8 +1,8 @@
 <?php
 //serveri andmed
 $server = 'localhost';
-$dbuser = 'arturit22';
-$dbpass = 'Passw0rd';
+$dbuser = 'root';
+$dbpass = '';
 $db = 'muusikapoodartur';
 $yhendus = mysqli_connect($server, $dbuser, $dbpass, $db);
 if (!$yhendus) {

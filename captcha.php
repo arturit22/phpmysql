@@ -26,6 +26,6 @@ for ($i=1; $i<=40 ; $i++) {
 	imagedashedline($pilt, $x1, $y1, $x2, $y2, $teksti_varv); 
 } 
 //lisame pildile soovitud parameetrud
-imagettftext($pilt, $teksti_suurus, 0, 10, 25, $teksti_varv, 'C:\xampp\htdocs\phpmysqlartur\Danfo-Regular-VariableFont_ELSH.ttf', $tekst);
+imagettftext($pilt, $teksti_suurus, 0, 10, 25, $teksti_varv, 'C:\xampp\htdocs\phpmysql\Danfo-Regular-VariableFont_ELSH.ttf', $tekst);
 imagejpeg($pilt);
 ?>

@@ -62,7 +62,7 @@ if (isset($_POST['nimi']) && isset($_POST['email']) && isset($_POST['sonum'])) {
 	<input name="email" type="text" value="<?php echo $vemail; ?>"><br>
 	Sõnum:<br>
 	<textarea cols="30" rows="10" name="sonum"><?php echo $vsonum; ?></textarea><br>
-	<img src="captcha.php"><br>
+	<img src="C:\xampp\htdocs\phpmysql\captcha.php"><br>
 	Sisesta kood pildilt:<br>
 	<input name="kood" type="text"><br>
 	<input value="saada sõnum" type="submit">
